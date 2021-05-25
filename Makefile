@@ -12,7 +12,7 @@ help:
 	@echo
 
 test:
-	poetry run pytest
+	poetry run pytest -v
 
 venv:
 	poetry env info
