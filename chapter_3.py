@@ -17,3 +17,15 @@ def chance_win_weighted(dps, weights):
     for ind, dp in enumerate(dps):
         prediction += dp * weights[ind]
     return round(prediction, 1)
+
+
+###
+# 1 input, n output [Trask 3.36-37]
+###
+
+
+def predict_win_per_fans_from_salary(dp, weights):
+    predictions = dict()
+    for k, v in weights.items():
+        predictions[k] = round(v * dp, 1)
+    return predictions
