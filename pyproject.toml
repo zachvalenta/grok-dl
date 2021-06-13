@@ -6,8 +6,6 @@ authors = ["zachvalenta <zjv5002@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.6"
-jupyter = "^1.0.0"
-numpy = "1.15.0"
 pytest = "^6.2.4"
 
 [tool.poetry.dev-dependencies]
