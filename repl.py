@@ -2,6 +2,7 @@ import re
 import sys
 
 import chapter_3 as san
+from importlib import reload
 
 print("\nAVAILABLE MODULES: \n")
 for mod in dir(sys.modules[__name__]):

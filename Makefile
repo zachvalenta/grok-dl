@@ -20,7 +20,7 @@ test:
 	poetry run pytest -v
 
 doc:
-	poetry run python -m doctest -v chapter_3.py
+	poetry run python -m doctest chapter_3.py
 
 venv:
 	poetry env info
